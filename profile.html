@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile - Reuse Plastic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">Reuse Plastic</a>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload_and_details.html">Upload & View Details</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="coins_points.html">Coins/Points</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile content -->
+    <div class="container">
+        <h1>Profile</h1>
+        
+        <!-- Profile section -->
+        <div class="profile-section">
+            <!-- Profile image in a circle on the left -->
+            <div class="profile-image">
+                <img src="profile.png" alt="Profile Picture">
+            </div>
+
+            <!-- Profile details on the right -->
+            <div class="profile-details">
+                <h2>John Doe</h2>
+                <p>Email: johndoe@example.com</p>
+                <p>Phone: 123-456-7890</p>
+                <p>Address: 123 Main St, Anytown, USA</p>
+                <!-- Add more details as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- CSS styling -->
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container styles */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Profile section styles */
+        .profile-section {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Profile image in a circle */
+        .profile-image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        /* Profile details */
+        .profile-details h2 {
+            margin: 0;
+        }
+
+        .profile-details p {
+            margin: 5px 0;
+        }
+    </style>
+</body>
+</html>

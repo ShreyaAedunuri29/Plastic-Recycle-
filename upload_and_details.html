@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload & View Details - Reuse Plastic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">Reuse Plastic</a>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="coins_points.html">Coins/Points</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Upload & View Details content -->
+    <div class="container">
+        <h1>Upload & View Details</h1>
+
+        <!-- Upload form -->
+        <form id="uploadForm" action="#" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="wasteImage">Upload Image:</label>
+                <input type="file" id="wasteImage" name="wasteImage" accept="image/*" required>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+            </div>
+
+            <div class="form-group">
+                <label for="weight">Weight:</label>
+                <input type="number" id="weight" name="weight" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Waste details section -->
+        <div class="waste-details-section">
+            <h2>Uploaded Waste Details</h2>
+            <!-- Placeholder for waste details -->
+            <div id="wasteDetails">
+                <!-- Sample waste details -->
+                <div class="waste-detail">
+                    <img src="trash.png" alt="Waste Image">
+                    <div class="waste-info">
+                        <p>Description: Plastic Bottles</p>
+                        <p>Quantity: 50</p>
+                        <p>Weight: 5 kg</p>
+                        <p>Address: 123 Main St, Anytown, USA</p>
+                    </div>
+                </div>
+                <!-- Add more waste details as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- CSS styling -->
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container styles */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Form styles */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        /* Waste details section styles */
+        .waste-details-section h2 {
+            margin-top: 30px;
+        }
+
+        .waste-detail {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .waste-detail img {
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .waste-info p {
+            margin: 5px 0;
+        }
+    </style>
+</body>
+</html>

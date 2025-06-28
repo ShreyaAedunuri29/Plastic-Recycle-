@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notifications - Reuse Plastic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">Reuse Plastic</a>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="upload_and_details.html">Upload & View Details</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="coins_points.html">Coins/Points</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Notifications section -->
+    <div class="container">
+        <h1>Notifications</h1>
+        
+        <!-- List of random notifications -->
+        <ul class="notifications-list">
+            <!-- Notification item -->
+            <li class="notification-item">
+                <div class="notification-header">
+                    <span class="notification-title">New Upload: Plastic Bottles</span>
+                    <span class="notification-time">2 hours ago</span>
+                </div>
+                <p class="notification-details">A user has uploaded 20 plastic bottles weighing 300g each. Check it out!</p>
+            </li>
+            
+            <!-- Notification item -->
+            <li class="notification-item">
+                <div class="notification-header">
+                    <span class="notification-title">Discount on Purchase</span>
+                    <span class="notification-time">5 hours ago</span>
+                </div>
+                <p class="notification-details">Get 10% off on your next purchase of single-use plastic items. Use code REUSE10.</p>
+            </li>
+            
+            <!-- Notification item -->
+            <li class="notification-item">
+                <div class="notification-header">
+                    <span class="notification-title">New Reward Available</span>
+                    <span class="notification-time">12 hours ago</span>
+                </div>
+                <p class="notification-details">You have earned enough points to redeem a new reward! Check your rewards page for more info.</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- CSS styling -->
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Navbar logo and links */
+        .navbar-logo a,
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar-links ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar-links li {
+            margin-left: 20px;
+        }
+
+        /* Container styles */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Notifications list styles */
+        .notifications-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Notification item styles */
+        .notification-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        /* Notification header styles */
+        .notification-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .notification-title {
+            font-weight: bold;
+        }
+
+        .notification-time {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        /* Notification details */
+        .notification-details {
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coins/Points - Reuse Plastic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">Reuse Plastic</a>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload_and_details.html">Upload & View Details</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Coins/Points content -->
+    <div class="container">
+        <h1>Coins/Points</h1>
+        
+        <!-- Display the user's current points balance -->
+        <div id="pointsBalance">
+            <p>Your current balance: 150 points</p>
+        </div>
+        
+        <!-- Information about how to earn and spend points -->
+        <div class="points-info">
+            <h2>How to Earn Points</h2>
+            <ul>
+                <li>Upload waste: Earn points based on the quantity and weight of the waste.</li>
+                <li>Purchase items: Earn points when buying waste from other users.</li>
+            </ul>
+            
+            <h2>How to Spend Points</h2>
+            <ul>
+                <li>Redeem rewards: Use points to redeem available rewards.</li>
+                <li>Purchase items: Use points to buy waste items from other users.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- CSS styling -->
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container styles */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Points content styles */
+        #pointsBalance p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .points-info h2 {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .points-info ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .points-info li {
+            margin-bottom: 10px;
+        }
+    </style>
+</body>
+</html>

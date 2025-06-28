@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Reuse Plastic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">Reuse Plastic</a>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="upload_and_details.html">Upload & View Details</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="coins_points.html">Coins/Points</li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero section with background image -->
+    <div class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to Reuse Plastic</h1>
+                <p>Our mission is to reduce waste by reusing single-use plastic. Explore the app to upload waste, purchase items, and earn rewards!</p>
+                
+                <!-- Call-to-action buttons -->
+                <div class="cta-buttons">
+                    <a href="upload_and_details.html" class="btn">Upload Waste</a>
+                    <a href="buy.html" class="btn">Buy Items</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CSS styling -->
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Navbar logo and links */
+        .navbar-logo a,
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar-links ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar-links li {
+            margin-left: 20px;
+        }
+
+        /* Hero section styles */
+        .hero {
+            background-image: url('hero-background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 93vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Container styles */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Hero content styles */
+        .hero-content {
+            margin-top: 20vh; /* Move the content down a bit from the top */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Text shadow */
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+        }
+
+        /* Call-to-action buttons */
+        .cta-buttons {
+            margin-top: 20px;
+        }
+
+        .cta-buttons .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-right: 20px;
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta-buttons .btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</body>
+</html>

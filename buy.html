@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy - Reuse Plastic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html">Reuse Plastic</a>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload_and_details.html">Upload & View Details</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="coins_points.html">Coins/Points</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Buy content -->
+    <div class="container">
+        <h1>Buy Waste Items</h1>
+        
+        <!-- List of available waste items for purchase -->
+        <div id="itemsForPurchase">
+            <!-- Sample waste item -->
+            <div class="item">
+                <img src="trash.png" alt="Item Image">
+                <div class="item-info">
+                    <p>Description: Plastic Bottles</p>
+                    <p>Quantity: 50</p>
+                    <p>Weight: 5 kg</p>
+                    <p>Price: 10 coins</p>
+                    <button type="button" class="buy-btn">Buy</button>
+                </div>
+            </div>
+            <!-- Add more waste items as needed -->
+        </div>
+    </div>
+
+    <!-- CSS styling -->
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container styles */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Buy content styles */
+        #itemsForPurchase .item {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        #itemsForPurchase img {
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .item-info p {
+            margin: 5px 0;
+        }
+
+        /* Buy button */
+        .buy-btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .buy-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</body>
+</html>
